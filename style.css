@@ -1,0 +1,171 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+/*common classes*/
+.fullWidth{
+	width: 100%;
+}
+
+.mainWidth{
+	width: 1170px;
+}
+.inLeft{
+	float: left;
+}
+.inRight{
+    float: right;
+}
+.clearFloat{
+	clear: both;
+}
+.verticalSpace{
+	margin-top: 30px;
+}
+.normalFont{
+	font-family: 'Lato', sans-serif;
+}
+.boldFont{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+.maincolor{
+	color:#21C2F8;
+}
+.center{
+	margin: 0 auto;
+}
+.zero{
+	padding: 0;
+	margin: 0;
+}
+.fontsz{
+	font-size: 
+}
+.secondheader{
+	margin-top: 30px;
+}
+/*Kodlar*/
+ul li{
+
+	padding: 17px 4px;
+	list-style: none;
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	
+	border: 1px solid #e4e4e4;
+	
+
+}
+ul li:first-child{
+	margin-left: 30px;
+}
+ul li a{
+	color: black;
+	line-height: 17px;
+	text-decoration: none;
+	padding: 16px;
+	
+}
+ul li a:hover{	
+	text-decoration: none;
+    background-color: #222533; 
+    color: white; 
+}
+.secondheader p{
+  font-size: 25px;
+}
+.search{ 
+	
+	margin-left: 250px;
+	border: 1px solid #e4e4e4 ;
+	box-shadow: none;
+	height: 28px;
+	width: 220px;
+ }
+ .slider{
+ 	
+ 	height: 610px;
+ 	background: url('images/page-1_slide1.jpg') no-repeat;
+ }
+ .success{
+ 	height: 190px;
+ 	color: white; 
+ 	background-color: #21C2F8;
+ 	opacity: .7;
+ 	position: relative;
+ 	top: 240px;
+ 	left: 60px;
+    
+
+ }
+ .success h1{
+ 	font-weight: bold;
+	font-size: 50px;
+ }
+.img1{ position: relative;
+	width: 370px;
+	background: url("images/page-4_img1.jpg") ;
+	height: 370px;
+	top: 30px;
+	left: 60px;
+	float: left;
+}
+.qizintexti{
+	color: white;
+	top: 267px;
+	position:relative;
+	background-color: rgba(34, 37, 51, 0.8);
+	opacity: .9;
+
+}
+.qizintexti h1{font-size: 30px;
+	font-weight: bold;
+}
+.oglanintexti h1{font-size: 30px;
+	font-weight: bold;
+}
+.img2{ position: relative;
+	width: 770px;
+	background: url("images/page-1_img2.jpg") ;
+	height: 370px;
+	top:10px;
+	left: 460px;
+}
+.fixed{
+
+	height: 370px;
+	width: 370px;
+}
+.img3{background: url("images/page-1_img3.jpg");
+}
+.img4{background: url("images/page-1_img4.jpg");}
+.img5{background: url("images/page-1_img5.jpg");}
+
+.fullWidth{
+	width: 100%;
+}
+
+.welcome{
+	height: auto;
+	background-color:#F2F2F2;
+}
+.welcome h1 span{
+	color:#20C1F7;
+	font-size:60px;
+}
+.firstWelcome{
+	height: auto;
+	width: 100%;
+}
+.firstWelcome p {
+	display: inline;
+
+}
+
+
+
+
+
+
